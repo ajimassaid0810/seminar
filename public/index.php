@@ -46,6 +46,53 @@
 
 <!-- Featured Menu -->
 <section class="bg-gray-50 py-20">
+    <!-- About Our Resto -->
+<section class="bg-white py-20">
+  <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+
+    <!-- Image -->
+    <div class="relative">
+      <img src="https://images.unsplash.com/photo-1555992336-03a23c7b20ee?q=80&w=1200&auto=format&fit=crop" 
+           alt="About Resto"
+           class="rounded-2xl shadow-xl w-full h-[420px] object-cover">
+      <div class="absolute -bottom-6 -right-6 bg-blue-600 text-white px-6 py-4 rounded-xl shadow-lg">
+        <p class="text-2xl font-bold">10+</p>
+        <p class="text-sm">Years Experience</p>
+      </div>
+    </div>
+
+    <!-- Content -->
+    <div>
+      <span class="inline-block bg-blue-100 text-blue-600 px-4 py-1 rounded-full text-sm mb-4">
+        ABOUT OUR RESTAURANT
+      </span>
+
+      <h2 class="text-3xl md:text-4xl font-extrabold text-gray-900 mb-4">
+        Menghadirkan Warisan Rasa Nusantara
+      </h2>
+
+      <p class="text-gray-600 mb-6 leading-relaxed">
+        Rasa Nusantara adalah destinasi kuliner premium yang menghadirkan kelezatan autentik Indonesia 
+        dengan sentuhan modern. Kami mengutamakan bahan berkualitas, resep tradisional, dan pelayanan 
+        profesional untuk menciptakan pengalaman bersantap yang tak terlupakan.
+      </p>
+
+      <div class="grid grid-cols-2 gap-6 mb-8">
+        <div>
+          <h3 class="text-2xl font-bold text-blue-600">50+</h3>
+          <p class="text-gray-500 text-sm">Menu Pilihan</p>
+        </div>
+        <div>
+          <h3 class="text-2xl font-bold text-blue-600">5★</h3>
+          <p class="text-gray-500 text-sm">Customer Rating</p>
+        </div>
+      </div>
+
+      <a href="about.php"
+         class="inline-block bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium transition">
+        Learn More
+      </a>
+    </div>
   <div class="max-w-7xl mx-auto px-6">
 
     <!-- Heading -->
@@ -128,8 +175,7 @@
       <a href="services.php"
          class="inline-block bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-medium transition">
         View Full Menu
-      </a>
-    </div>
+
 
   </div>
 </section>
